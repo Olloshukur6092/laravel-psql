@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: sans-serif;
+}
+#header {
+  position: fixed;
+  width: 85%;
+  right: 0;
+  height: 60px;
+  background-color: #fff;
+}
+
+#header .nav-left {
+  position: absolute;
+  left: 15px;
+  top: 0;
+  padding: 15px 1px;
+  border-bottom: 4px solid red;
+}
+#header .nav-left .navbar-product {
+  font-size: 18px;
+  text-decoration: none;
+  color: red;
+}
+
+#header .nav-right {
+  position: absolute;
+  right: 30px;
+  top: 18px;
+}
+
+#header .nav-right a {
+  text-decoration: none;
+  color: #36454f;
+}
+
+#sidebar {
+  position: absolute;
+  width: 15%;
+  height: 100vh;
+  background-color: #36454f;
+}
+
+#sidebar .product-image {
+  width: 100%;
+  height: 100px;
+}
+
+#sidebar .product-image img {
+  width: 100%;
+  height: 100%;
+}
+
+#sidebar .product-li {
+  position: absolute;
+  left: 50px;
+  margin-top: 20px;
+}
+
+#sidebar .product-li a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+#content {
+  position: absolute;
+  width: 85%;
+  height: calc(100vh - 60px);
+  left: 15%;
+  top: 60px;
+}
+
+#content .content-left {
+  position: absolute;
+  width: 70%;
+}
+
+#content .content-left tbody {
+  background-color: #fff;
+}
+
+#content .content-button {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+#content .content-right {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  display: none;
+}
+
+#content .content-right.salom {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  display: block;
+}
+
+#content .button-primary {
+  height: 30px;
+  width: 120px;
+  background-color: rgb(15, 106, 241);
+  outline: none;
+  border: none;
+  font-size: 15px;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 3px 3px 15px #36454f;
+}
+
+#content .content-right .button-primary:hover {
+  cursor: pointer;
+}
+#content .card {
+  background-color: #36454f;
+  width: 700px;
+  height: 100%;
+  padding: 20px 40px;
+}
+/* #content .form-control, .custom-select {
+  width: 80%;
+  height: 35px;
+} */
+ #content .forms .forms1 {
+  width: 45%;
+}
+#content .forms .forms2 {
+  width: 45%;
+}
+#content .forms  input {
+  height: 36px;
+  border: none;
+  outline: none;
+  padding: 0 15px;
+  border-radius: 6px;
+}
+/* #content .inputs {
+  width: 95%;
+}  */
+
+#content label {
+  font-size: 13px;
+  display: block;
+}
+
+
+#content .fa-trash-can:hover {
+  cursor: pointer;
+}
+
+#content .card #closeBtn {
+  position: absolute;
+  right: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+#content .attr {
+  font-size: 13px;
+  color: rgba(31, 199, 241, 0.952);
+  border-bottom: 1px dashed rgb(6, 196, 243);
+}
+
+#content .attr:hover {
+  cursor: pointer;
+}
