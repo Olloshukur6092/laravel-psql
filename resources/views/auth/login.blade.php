@@ -32,11 +32,11 @@
                         @csrf
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="text" class="form-control" name="email" id="email" />
+                            <input type="email" class="form-control" name="email" id="email" />
                         </div>
                         <div class="form-group">
                             <label for="password">Password</label>
-                            <input type="text" class="form-control" name="password" id="password" />
+                            <input type="password" class="form-control" name="password" id="password" />
                         </div>
                         <div class="form-group">
                             <input type="submit" class="btn btn-success btn-block" value="Save" />
